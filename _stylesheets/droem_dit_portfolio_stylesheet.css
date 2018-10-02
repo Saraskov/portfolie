@@ -10,7 +10,7 @@
 .image_group {
 	display: flex;
 	justify-content: space-around;
-	margin: 3% auto 3% auto;
+	margin: 3% auto 0.5% auto;
 	width: 90%;
 	haight: auto;
 }
@@ -22,4 +22,55 @@
 .image img {
 	width: 100%;
 	height: auto;
+}
+
+hr {
+	border-top-color: #202424;
+	margin: 0px auto 2% auto;
+	border-style: dashed;
+	border-width: 1px 0 0;
+	max-width: 40%;
+}
+
+/*Local navigation bar design*/
+#local_nav {
+	padding: 4px 20px;
+}
+
+#local_nav a:link{
+	color: #202424;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+#local_nav a:visited{
+	color: #475050;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+#local_nav a:hover{
+	color: #202424;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+#local_nav a:active{
+	color: #475050;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+/*Text design - columns*/
+.tekst_indhold {
+    webkit-column-count: 4; /* Chrome, Safari, Opera */
+    moz-column-count: 4; /* Firefox */
+	column-count: 4;
+	margin: 0px 2% 2% 2%;
+	width: 96%;
+}
+
+.tekst_indhold img {
+	height: auto;
+	width: 100%;
 }
