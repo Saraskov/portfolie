@@ -1,3 +1,54 @@
 @charset "utf-8";
 /* CSS Document */
 
+#container {
+	display: block;
+}
+
+main img {
+	min-width: 200px;
+	max-width: 370px;
+	height: auto;
+	position: relative;
+	top: 20%;
+	left: 10%;
+	margin-top: 3%;
+}
+
+.box {
+	background-color:rgba(134,133,133,0.72);
+	width: 255px;
+	height: auto;
+	position: absolute;
+	left: 30%;
+	top: 25%;
+	padding: 15px 25px;
+	box-shadow: 2px 2px 2px #202424;
+}
+
+.box h3 {
+	font-size: 18pt;
+	margin-bottom: 7px;
+}
+
+.box-2 {
+	width: 350px;
+	height: auto;
+	position: absolute;
+	right: 15%;
+	top: 32%;
+}
+
+.box-2-in {
+	height: 150px;
+}
+
+.box-2 h3 {
+	font-size: 18pt;
+	margin-bottom: 7px;
+}
+
+.box-2 h4 {
+	font-weight: 500;
+	font-size: 14pt;
+}
