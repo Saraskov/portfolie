@@ -1,3 +1,40 @@
 @charset "utf-8";
 /* CSS Document */
 
+*{
+	box-sizing: border-box;
+}
+
+/*Tekst indhold*/
+#introtekst {
+	width: auto;
+	border: 2px  none;
+}
+
+/*Table indhold*/
+.row {
+	align: center;
+	margin: auto;
+	overflow-x: auto;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+td{
+	float: left;
+	vertical-align: top;
+	width: 300px;
+	border: 2px solid rgba(43,43,43,1.00);
+	align-content: center;
+	padding: 0px 3px;
+	
+}
+
+table img{
+	width: 300px;
+	height: auto;
+}
