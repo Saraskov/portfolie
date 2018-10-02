@@ -25,7 +25,7 @@ nav ul {
 	margin: 0 auto;
 	padding: 0;
 	overflow: hidden;
-	position: fixed;
+	position: relative;
 	text-align: center;
 	width: 100%;
 }
@@ -54,5 +54,5 @@ nav li {
 
 /*Text style*/
 p {
-	font-family: 'Noto Serif', serif;
+	font-family: 'Noto Serif', Times, "Times New Roman", "serif";
 }
