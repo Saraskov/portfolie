@@ -31,10 +31,15 @@ nav ul {
 }
 
 nav li {
-	margin: 0px 30px;
+	margin: 0px;
 	font-family: "Berlin Sans FB", "Helvetica", sans-serif;
-	padding: 0;	
+	padding: 10px 30px;	
 	display: inline-block;
+	color: #202424;
+}
+
+.menu_hover:hover {
+	background-color: rgba(87,87,87,0.31);
 }
 
 .menu_text {

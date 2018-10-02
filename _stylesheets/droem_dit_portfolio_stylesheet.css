@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+#overskrift {
+	margin: 3% auto 0;
+	text-align: center;
+}
+
+/*Image design layout*/
+.image_group {
+	display: flex;
+	justify-content: space-around;
+	margin: 3% auto 3% auto;
+	width: 90%;
+	haight: auto;
+}
+
+.image {
+	padding: 1%;
+}
+
+.image img {
+	width: 100%;
+	height: auto;
+}
