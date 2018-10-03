@@ -33,9 +33,12 @@ nav ul {
 nav li {
 	margin: 0px;
 	font-family: "Berlin Sans FB", "Helvetica", sans-serif;
-	padding: 10px 30px;	
 	display: inline-block;
 	color: #202424;
+}
+
+nav li p {
+	padding: 10px 30px;	
 }
 
 .menu_hover:hover {
@@ -46,7 +49,7 @@ nav li {
 .menu_text {
 	color: black;
 	vertical-align: middle;
-	font-size: 20px;
+	font-size: 20pt;
 	text-decoration: none;
 }
 
@@ -62,3 +65,4 @@ nav li {
 p {
 	font-family: 'Noto Serif', Times, "Times New Roman", "serif";
 }
+

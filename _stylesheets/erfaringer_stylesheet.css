@@ -1,65 +1,160 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*Containter content leyout*/
+main {
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+
+table {
+	border-collapse: collapse;
+	width: 70%;
+}
+
+
+/*Table sizing*/
+table .vl {
+	vertical-align: middle;
+	text-align: center;
+	width: 10%;
+}
+
+table .ht {
+	width: 45%;
+}
+table .vt {
+	width: 45%;
+}
+
 /*Vertical line design*/
+
 #vl1{
-	border-left: 4px dotted green;
+	border-right: 4px dotted green;
 	height: 70px;
-	position: absolute;
 	left: 30%;
-	top: 20%;
+	top: 0%;
+	margin: auto 0;
+	width: 49%;
 }
 
 #vl2 {
-	border-left: 4px dotted green;
-	height: 70px;
-	position: absolute;
+	border-right: 4px dotted blue;
+	height: 110px;
 	left: 30%;
-	top: 35%;
+	top: 15%;
+	margin: 20px 0;
+	width: 49%;
 }
 
 #vl3 {
-	border-left: 4px dotted green;
+	border-right: 4px dotted yellow;
 	height: 70px;
-	position: absolute;
 	left: 30%;
-	top: 50%;
+	top: 30%;
+	margin: auto 0 auto 0;
+	width: 49%;
 }
 
 #vl4 {
-	border-left: 4px dotted green;
+	border-right: 4px dotted pink;
 	height: 70px;
-	position: absolute;
 	left: 30%;
-	top: 65%;
+	top: 45%;
+	margin: auto 0 auto  0;
+	width: 49%;
 }
 
 /*Tekst design*/
-.ht, .vt {
+.maincontainer {
 	display: block;
-	width: 20%;
-	position: absolute;
+	width: 50%;
+	position: relative;
+	float: left;
+	padding: 0% 10%;
+	margin-top: 2%;
 }
 
-.ht {
-	top: 22.5%;
-	left: 20%;
+#over {
+	text-align: center;
+	padding-bottom: 30px;
 }
 
-.vt {
-	top: 22.5%;
-	left: 35%;
+.ht h1 {
+	text-align: center;
 }
 
 .ht h2 {
-	margin-bottom: 85px;
+	margin: 42.5px 0 42.5px 0;
+	padding-left: 100px;
 }
 
-.vt #vt1, #vt3, #vt4 {
-	margin-bottom: 30%;
+#vt1, #vt3, #vt4 {
+	margin: auto 0 auto 15%;
 }
 
 #vt2 {
-	margin-bottom: 25%;
-	margin-top: -2.5%;
+	margin: 5% 0 5% 15%;
+}
+
+#ht1 {
+	margin-top: 100px;
+}
+
+/*Side container layout*/
+.sidecontainer {
+	background-color: #efefef;
+	width: 400px;
+	height: auto;
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-top: 2%;
+	margin-left: -4%;
+	padding: 25px;
+	vertical-align: baseline;
+}
+
+/*Text layout*/
+.sidecontainer h2 {
+	text-align: center;
+	font-size: 24pt;
+	margin-bottom: 25px;
+}
+.sidecontainer h3 {
+	margin-top: 30px;
+}
+
+/*Image and textbox*/
+.sidecontainer figure {
+	text-align: left;
+	height: auto;
+	width: 100%;
+	background-color:#DADADA;
+}
+
+#cphbusiness {
+	width: 240px;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 10px;
+}
+
+.sidecontainer figure figcaption {
+	display: inline-block;
+	color: black;
+	padding: 10px;
+	width: 119.5px;
+	vertical-align: middle;
+	border-left: 0.5px solid #6E6E6E;
+}
+
+/*Text styles*/
+td a {
+	text-decoration: none;
+	color: black;
+}
+
+td a:hover {
+	text-decoration: underline;
 }
