@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Vertical line design*/
+#vl1{
+	border-left: 4px dotted green;
+	height: 70px;
+	position: absolute;
+	left: 30%;
+	top: 20%;
+}
+
+#vl2 {
+	border-left: 4px dotted green;
+	height: 70px;
+	position: absolute;
+	left: 30%;
+	top: 35%;
+}
+
+#vl3 {
+	border-left: 4px dotted green;
+	height: 70px;
+	position: absolute;
+	left: 30%;
+	top: 50%;
+}
+
+#vl4 {
+	border-left: 4px dotted green;
+	height: 70px;
+	position: absolute;
+	left: 30%;
+	top: 65%;
+}
+
+/*Tekst design*/
+.ht, .vt {
+	display: block;
+	width: 20%;
+	position: absolute;
+}
+
+.ht {
+	top: 22.5%;
+	left: 20%;
+}
+
+.vt {
+	top: 22.5%;
+	left: 35%;
+}
+
+.ht h2 {
+	margin-bottom: 85px;
+}
+
+.vt #vt1, #vt3, #vt4 {
+	margin-bottom: 30%;
+}
+
+#vt2 {
+	margin-bottom: 25%;
+	margin-top: -2.5%;
+}
